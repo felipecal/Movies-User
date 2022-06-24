@@ -6,7 +6,7 @@
   "author": "Felipe <fcalldas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon babel-node src/index.js"
+    "dev": "nodemon --exec babel-node src/index.js -e js,gql"
   },
   "dependencies": {
     "apollo-server": "^3.9.0",
